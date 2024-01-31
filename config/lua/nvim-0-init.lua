@@ -31,3 +31,6 @@ vim.opt.shortmess:append "c"
 vim.opt.whichwrap:append("<,>,[,]")
 vim.opt.iskeyword:append("-")
 
+
+-- Ensure 'nvim-lspconfig' is installed
+require'lspconfig'.texlab.setup{}
