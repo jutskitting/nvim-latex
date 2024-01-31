@@ -44,6 +44,7 @@
             buildInputs = with pkgs; [
               customNeovim
               texliveBasic
+              latexrun
               texlab
             ];
         };
