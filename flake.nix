@@ -39,6 +39,7 @@
           buildInputs = with pkgs; [
             customNeovim
             texlab
+            texliveBasic
           ];
       };
 
