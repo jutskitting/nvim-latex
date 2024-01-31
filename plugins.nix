@@ -7,4 +7,6 @@ with pkgs.vimPlugins; [
   nvim-tree-lua
   nvim-lspconfig
   vimtex
+  coc-ltex
+  ale
 ]

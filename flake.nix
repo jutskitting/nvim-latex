@@ -43,8 +43,8 @@
         devShells.default = pkgs.mkShell {
             buildInputs = with pkgs; [
               customNeovim
-              texlab
               texliveBasic
+              texlab
             ];
         };
       }
