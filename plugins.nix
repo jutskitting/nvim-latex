@@ -7,5 +7,6 @@ with pkgs.vimPlugins; [
   comment-nvim
   nvim-tree-lua
   nvim-lspconfig
+  luasnip
   vimtex
 ]

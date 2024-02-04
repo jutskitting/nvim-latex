@@ -5,7 +5,6 @@ vim.o.shiftwidth=2
 vim.opt.ignorecase = true
 vim.o.expandtab = true
 vim.o.smartindent=true
-vim.o.number=true
 vim.o.wrap=true
 vim.o.swapfile=false
 vim.o.history=500
@@ -30,6 +29,8 @@ vim.opt.fillchars.eob=""
 vim.opt.shortmess:append "c"
 vim.opt.whichwrap:append("<,>,[,]")
 vim.opt.iskeyword:append("-")
+vim.wo.number = true
+vim.wo.relativenumber = true
 
 
 -- Ensure 'nvim-lspconfig' is installed
