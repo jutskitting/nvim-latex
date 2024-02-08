@@ -8,5 +8,6 @@ with pkgs.vimPlugins; [
   nvim-tree-lua
   nvim-lspconfig
   luasnip
+  nvim-cmp
   vimtex
 ]
